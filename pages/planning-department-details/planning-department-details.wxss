@@ -1,0 +1,17 @@
+.check-btn {
+    text-align: center;
+    padding: 40rpx;
+    box-sizing: border-box;
+}
+.check-btn .amend {
+    width: 100%;
+    height: 76rpx;
+    line-height: 76rpx;
+    text-align: center;
+    background: #F43A2A;
+}
+
+
+
+
+

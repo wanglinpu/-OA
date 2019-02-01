@@ -1,0 +1,124 @@
+
+<view class="container" hover-class="none" hover-stop-propagation="false">
+    <view class="index-top" hover-class="none" hover-stop-propagation="false">
+        <view class="top-pro flex-wrp-col" hover-class="none" hover-stop-propagation="false">
+            <text class="job-number">12545351354</text>
+            <image src="../../images/touxiang.png"></image>
+            <text class="name">苏灿灿</text>
+            <text class="state">待我审批</text>
+        </view>
+    </view>
+    <view class="contact" hover-class="none" hover-stop-propagation="false">
+        <view class="contact-clud flex-wrp-row" hover-class="none" hover-stop-propagation="false">
+            <view class="customer-details">
+                <view class="customer-box">
+                    <view class="flex-wrp-row customer-bar">
+                        <text class="call">申请时间</text>
+                        <text class="name">2018-12-5</text>
+                    </view>
+                    <view class="flex-wrp-row customer-bar">
+                        <text class="call">所属项目</text>
+                        <text class="name">T区大食堂</text>
+                    </view>
+                    <view class="flex-wrp-row customer-bar">
+                        <text class="call">门面编号</text>
+                        <text class="name">0001</text>
+                    </view>
+                    <view class="flex-wrp-row customer-bar">
+                        <text class="call">申请事由</text>
+                        <text class="name">业态有改变</text>
+                    </view>
+                    <view class="flex-wrp-row customer-bar">
+                        <text class="call">原生态</text>
+                        <text class="name">餐饮</text>
+                    </view>
+                    <view class="flex-wrp-row customer-bar">
+                        <text class="call">申请业态</text>
+                        <text class="name">服装</text>
+                    </view>
+                    <view class="flex-wrp-col digest reject">
+                        <text>申请理由:</text>
+                        <textarea class="" value="" placeholder="" disabled="disabled">
+                            点击输入驳回理由点击输入驳回理由点击输入驳回理由点击输入驳回理由点击输入驳回理由点击输入驳回理由点击输入驳回理由
+                        </textarea>
+                    </view>
+                    <view class="floor-plan">
+                        <image src="../../images/news.png"></image>
+                    </view>
+                    <view class="flex-wrp-col process">
+                        <view class="process-top flex-wrp-col">
+                            <view class="line"></view>
+                            <text class="title">事件耗时</text>
+                            <text class="times">1天2小时50分</text>
+                        </view>
+                        <view class="process-buttom">
+                            <view class="flex-wrp-row">
+                                <view class="shape">
+                                    <image src="../../images/juxing2.png"></image>
+                                </view>
+                                <view class="state flex-wrp-row">
+                                    <view>
+                                        <image src="../../images/touxiang.png"></image>
+                                    </view>
+                                    <view class="state-btm flex-wrp-col">
+                                        <view class="flex-wrp-row state-btm-top">
+                                            <text class="names">艾丽娅</text>
+                                            <text class="time">2019-1-12</text>
+                                        </view>
+                                        <text class="launch">发起申请</text>
+                                        <text class="explain">中山回访档案需要重新整理，中山回访档案需要重新整理</text>
+                                    </view>
+                                </view>
+                            </view>
+                            <view class="dashed"></view>
+                        </view>
+                        <view class="process-buttom">
+                            <view class="flex-wrp-row">
+                                <view class="shape">
+                                    <image src="../../images/juxing2.png"></image>
+                                </view>
+                                <view class="state flex-wrp-row">
+                                    <view>
+                                        <image src="../../images/touxiang.png"></image>
+                                    </view>
+                                    <view class="state-btm flex-wrp-col">
+                                        <view class="flex-wrp-row state-btm-top">
+                                            <text class="names">艾丽娅</text>
+                                            <text class="time">2019-1-12</text>
+                                        </view>
+                                        <text class="launch">发起申请</text>
+                                        <text class="explain">中山回访档案需要重新整理，中山回访档案需要重新整理</text>
+                                    </view>
+                                </view>
+                            </view>
+                            <view class="dashed"></view>
+                        </view>
+                        <view class="process-buttom">
+                            <view class="flex-wrp-row">
+                                <view class="shape">
+                                    <image src="../../images/juxing2.png"></image>
+                                </view>
+                                <view class="state flex-wrp-row">
+                                    <view>
+                                        <image src="../../images/touxiang.png"></image>
+                                    </view>
+                                    <view class="state-btm flex-wrp-col">
+                                        <view class="flex-wrp-row state-btm-top">
+                                            <text class="names">艾丽娅</text>
+                                            <text class="time">2019-1-12</text>
+                                        </view>
+                                        <text class="launch">发起申请</text>
+                                        <text class="explain">中山回访档案需要重新整理，中山回访档案需要重新整理</text>
+                                    </view>
+                                </view>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="check-btn flex-wrp-row">
+       <button class="amend">修改</button>
+    </view>
+</view>

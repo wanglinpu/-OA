@@ -1,0 +1,79 @@
+<view class="container" hover-class="none" hover-stop-propagation="false">
+    <view class="col-ctn">
+        <view class="collection">
+            <view class="collection-details">
+                <view class="section flex-wrp-row">
+                    <text>入账账户:</text>
+                    <picker mode="date" value="" start="2015-09-01" end="2025-09-01" bindchange="bindDateChange">
+                        <view class="picker">
+                            请填写日期 {{date}}
+                        </view>
+                        <image src="../../images/xia-copy1.png"></image>
+                    </picker>
+                </view>
+                <view class="flex-wrp-row">
+                    <text>所属部门:</text>
+                    <input class="input" name="userName" placeholder="" bindinput="userNameInput" />
+                </view>
+                <view class="flex-wrp-row">
+                    <text>门面编号:</text>
+                    <input class="input" name="userName" placeholder="" bindinput="userNameInput" />
+                </view>
+                <view class="flex-wrp-row">
+                    <text>申请事由:</text>
+                    <input class="input" name="userName" placeholder="" bindinput="userNameInput" />
+                </view>
+                <view class="flex-wrp-row">
+                    <text class="input-mr">原业态: </text>
+                    <input class="input" name="userName" placeholder="" bindinput="userNameInput" />
+                </view>
+                <view class="flex-wrp-row">
+                    <text>申请业态:</text>
+                    <input class="input" name="userName" placeholder="" bindinput="userNameInput" />
+                </view>
+                <view class="flex-wrp-col digest">
+                    <text>借款用途:</text>
+                    <textarea class="" value="" placeholder="点击输入借款用途">
+                    <image src="../../images/pen1.png"></image>
+                </textarea>
+                </view>
+                <view class="flex-wrp-col add-attachment">
+                    <text>上传平面图:</text>
+                    <view>
+                        <image src="../../images/add3.png"></image>
+                    </view>
+                </view>
+                <view class="flex-wrp-col">
+                    <text>收款摘要:</text>
+                    <view class="flex-wrp-row check-box">
+                        <block wx:for="{{parameter2}}" wx:key="parameter2">
+                            <text class='parameter-info text-over {{item.checked?"checked_parameter":""}}' data-id='{{item.id}}'
+                                bindtap='parameterTap2'>{{item.name}}</text>
+                        </block>
+                    </view>
+                </view>
+                <view class="flex-wrp-col">
+                    <text>审批人:</text>
+                    <view class="flex-wrp-row check-box">
+                        <view class="approval-people flex-wrp-col">
+                            <image src="../../images/touxiang.png"></image>
+                            <text class="name">王思聪</text>
+                        </view>
+                        <view class="del">
+                            <image src="../../images/cha1.png"></image>
+                        </view>
+                        <image src="../../images/jiantou1.png"></image>
+                        <image src="../../images/add1.png"></image>
+                    </view>
+                </view>
+                <view class="flex-wrp-col copy-to">
+                    <text>抄送人</text>
+                    <image src="../../images/add1.png"></image>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="submit">
+        <navigator>提交</navigator>
+    </view>
+</view>

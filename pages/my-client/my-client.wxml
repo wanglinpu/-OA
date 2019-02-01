@@ -1,0 +1,101 @@
+<view class="container" hover-class="none" hover-stop-propagation="false">
+    <view class="top-search">
+        <image src="../../images/search.png"></image>
+        <input placeholder="" />
+    </view>
+    <view class="customer">
+        <view class="customer-top">
+            <view class="flex-wrp-row customer-top-right">
+                <view class="flex-wrp-col ">
+                    <view class="flex-wrp-row">
+                        <text class="name">王城</text>
+                        <text class="note">个人</text>
+                    </view>
+                    <view class="tel-phone">
+                        138745574857
+                    </view>
+                </view>
+                <view class="edit">
+                    <image src="../../images/write1.png"></image>
+                </view>
+            </view>
+            <view class="cooperation">
+                <text class="good-at">比较擅长饮食文化推广，懂得多元化元素去装修等</text>
+                <view class="cooperation-bottom hide{{showView?'show':''}}">
+                    <view class="cooperation-bottom-top">
+                        <view class="line"></view>
+                        <view class="cooperation-title">合作情况</view>
+                    </view>
+                    <view class="cooperation-bottom-bottom flex-wrp-row">
+                        <view class="cooperation-left flex-wrp-col">
+                            <view><text class="cooperation-title">位置: </text><text>大时代</text></view>
+                            <view><text class="cooperation-title">业态: </text><text>火锅</text></view>
+                            <view><text class="cooperation-title">品牌: </text><text>重庆火锅</text></view>
+                            <view><text class="cooperation-title">经营性质: </text><text>连锁店</text></view>
+                            <view><text class="cooperation-title">需求强烈度: </text><text>很强烈愿望</text></view>
+                        </view>
+                        <view class="cooperation-left flex-wrp-col cp-mr-left">
+                            <view><text class="cooperation-title">面积: </text><text>128平</text></view>
+                            <view><text class="cooperation-title">意向铺面: </text><text>2147</text></view>
+                            <view><text class="cooperation-title">意向租金: </text><text>234/平</text></view>
+                            <view><text class="cooperation-title">录入时间: </text><text>12-12 12:34</text></view>
+                            <view><text class="cooperation-title">备注: </text><text>已经签订合同\交定金</text></view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <view class="btn">
+                <view class="hide{{showView?'show':''}} " bindtap="onChangeShowState">{{showView?'点击收起合作情况':'点击收起展开情况'}}<text>︿</text></view>
+                <view class="hide{{showView?'':'show'}}" bindtap="onChangeShowState">{{showView?'点击收起合作情况':'点击展开合作情况'}}<text>﹀</text></view>
+            </view>
+        </view>
+    </view>
+    <view class="customer-top">
+            <view class="flex-wrp-row customer-top-right">
+                <view class="flex-wrp-col ">
+                    <view class="flex-wrp-row">
+                        <text class="name">王城</text>
+                        <text class="note">个人</text>
+                    </view>
+                    <view class="tel-phone">
+                        138745574857
+                    </view>
+                </view>
+                <view class="edit">
+                    <image src="../../images/write1.png"></image>
+                </view>
+            </view>
+            <view class="cooperation">
+                <text class="good-at">比较擅长饮食文化推广，懂得多元化元素去装修等</text>
+                <view class="cooperation-bottom hide{{showView?'show':''}}">
+                    <view class="cooperation-bottom-top">
+                        <view class="line"></view>
+                        <view class="cooperation-title">合作情况</view>
+                    </view>
+                    <view class="cooperation-bottom-bottom flex-wrp-row">
+                        <view class="cooperation-left flex-wrp-col">
+                            <view><text class="cooperation-title">位置: </text><text>大时代</text></view>
+                            <view><text class="cooperation-title">业态: </text><text>火锅</text></view>
+                            <view><text class="cooperation-title">品牌: </text><text>重庆火锅</text></view>
+                            <view><text class="cooperation-title">经营性质: </text><text>连锁店</text></view>
+                            <view><text class="cooperation-title">需求强烈度: </text><text>很强烈愿望</text></view>
+                        </view>
+                        <view class="cooperation-left flex-wrp-col cp-mr-left">
+                            <view><text class="cooperation-title">面积: </text><text>128平</text></view>
+                            <view><text class="cooperation-title">意向铺面: </text><text>2147</text></view>
+                            <view><text class="cooperation-title">意向租金: </text><text>234/平</text></view>
+                            <view><text class="cooperation-title">录入时间: </text><text>12-12 12:34</text></view>
+                            <view><text class="cooperation-title">备注: </text><text>已经签订合同\交定金</text></view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <view class="btn">
+                <view class="hide{{showView?'show':''}} " bindtap="onChangeShowState">{{showView?'点击收起合作情况':'点击收起展开情况'}}<text>︿</text></view>
+                <view class="hide{{showView?'':'show'}}" bindtap="onChangeShowState">{{showView?'点击收起合作情况':'点击展开合作情况'}}<text>﹀</text></view>
+            </view>
+        </view>
+    <view class="submit">
+        <navigator url="/pages/add-customer/add-customer">点击添加客户</navigator>
+    </view>
+</view>

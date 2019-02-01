@@ -1,0 +1,104 @@
+
+page{
+    background: #F0F1F3;
+   
+}
+.swiper-tab {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background: #fff;
+    line-height: 90rpx;
+    font-size: 30rpx;
+    margin-right: 100rpx;
+    border-top: 2rpx solid #F2F2F2;
+  }
+  .swiper-tab .tab-item {
+    margin-left: 102rpx;
+  }   
+  .tab-item {
+    text-align: center;
+    color: #000;
+  }.swiper {
+        height: 2000rpx;
+    }
+  .on {
+    font-size: 30rpx;
+    color: #f65959;
+    font-weight: 900;
+    border-bottom: 5rpx solid #f65959;
+  }
+/* 内容主体 */
+.swiper-list {
+    padding:30rpx 20rpx;
+
+}
+.swiper-list swiper-item {
+    /* height: 1000rpx; */
+}
+.swiper-list swiper-item .expenses {
+    width: 100%;
+    padding-bottom: 40rpx;
+    border-radius: 30rpx;
+    box-sizing: border-box;
+    background: #fff;
+}
+.swiper-list swiper-item image {
+    margin: 40rpx 20rpx 0 40rpx;
+    width: 120rpx;
+    margin-right: 20rpx;
+    height: 120rpx;
+    border-radius: 50%;
+}
+.expenses {
+    margin-bottom: 20rpx;
+}
+.expenses-right {
+    font-size: 28rpx;
+    /* margin-left: 40rpx; */
+    margin-top: 30rpx;
+}
+.expenses-right .text-color {
+    margin-top: 10rpx;
+    color: #666;
+}
+ .expenses-right-title  {
+    margin-right: 10rpx;
+    color: #C0C0C0;
+}
+.expenses-right-title text {
+   margin-right: 40rpx;
+}
+.expenses-right-title .time {
+    margin-left: 60rpx;
+}
+.agreed-color {
+    margin-top: 10rpx;
+    color:  #f65959;
+}
+.audit-color {
+    margin-top: 10rpx;
+    color: #FFAC35;
+}
+/* 新增按钮 */
+.add-gold {
+    height: 164rpx;
+    background: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.add-gold navigator     {
+    margin: 0 auto;
+    margin-top: 20rpx;
+    color: #fff;
+    border-radius: 30rpx;
+    font-weight: none;
+    font-size: 32rpx;
+    box-sizing: border-box;
+    background: #F54342;  
+    width: 600rpx;
+    height: 74rpx;
+    line-height: 74rpx;
+    text-align: center;
+}

@@ -1,0 +1,281 @@
+<view class="container">
+    <!-- 头部标题开始 -->
+    <view class="top-box">
+        <view class="top flex-wrp-row">
+            <text>招商部</text>
+            <image src="../../images/bell1.png"></image>
+            <view class="unread">8</view>
+        </view>
+    </view>
+    <!-- 头部标题结束 -->
+    <!-- 轮播图开始 -->
+    <view class="banner">
+        <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}"
+            circular="true" indicator-color="black" indicator-active-color="#F54342">
+            <block wx:for="{{imgUrls}}" wx:key="key">
+                <swiper-item>
+                    <navigator url="{{item.link}}" hover-class="navigator-hover">
+                        <image src="{{item.url}}" class="slide-image" />
+                    </navigator>
+                </swiper-item>
+            </block>
+        </swiper>
+    </view>
+    <!-- 轮播图结束 -->
+
+    <!-- 主体部分开始 -->
+    <view class="layout-content">
+        <view class="swiper-contanier">
+            <view class="swiper-tab">
+                <view class="tab-item {{swiperCurrent==0 ? 'on' : ''}} body_head" data-current="0" bindtap="swichNav"
+                    bindtap="showitem">
+                    <text>大时代</text>
+                    <image src="../../images/xia-copy1.png"></image>
+                </view>
+                <view class="tab-item {{swiperCurrent==1 ? 'on' : ''}}" data-current="0" bindtap="swichNav">我审批的</view>
+                <view class="tab-item {{swiperCurrent==2 ? 'on' : ''}}" data-current="1" bindtap="swichNav">我申请的</view>
+                <view class="tab-item {{swiperCurrent==3 ? 'on' : ''}}" data-current="2" bindtap="swichNav">抄送我的</view>
+            </view>
+            <!--内容主体-->
+            <view class="swiper-list">
+                <swiper class="swiper" current="{{swiperCurrent}}" duration="200" bindchange="swiperChange">
+                    <swiper-item class="">
+                        <view class="project-list">
+                            <view class="request">
+                                <image src="../../images/xia-copy1 (3).png"></image>
+                                <text>提交请求</text>
+                            </view>
+                            <view>
+                                <view class="flex-wrp-row list-col">
+                                    <navigator>设计审批</navigator>
+                                    <navigator>预算申请</navigator>
+                                    <navigator>采购申请</navigator>
+                                </view>
+                                <view class="flex-wrp-row list-col">
+                                    <navigator>付费申请</navigator>
+                                    <navigator>增项申请</navigator>
+                                    <navigator>验收申请</navigator>
+                                </view>
+                                <view class="flex-wrp-row list-col">
+                                    <navigator>装修申请</navigator>
+                                    <navigator>商家验收申请</navigator>
+                                    <navigator>退装修申请</navigator>
+                                </view>
+                                <view class="flex-wrp-row list-col">
+                                    <navigator>零工程报修</navigator>
+                                    <navigator>零工程报销</navigator>
+                                    <navigator>费用报销</navigator>
+                                </view>
+                                <view class="flex-wrp-row">
+                                    <navigator>零工程报修</navigator>
+                                    <navigator>零工程报销</navigator>
+                                    <navigator>费用报销</navigator>
+                                </view>
+                            </view>
+                        </view>
+                    </swiper-item>
+                    <swiper-item class="">
+                        <navigator url="/pages/attract-investment-approval/attract-investment-approval" class="expenses flex-wrp-row">
+                            <view class="swiper-item-left">
+                                <image src="../../images/news.png">
+                                </image>
+                                <view class="red-round"></view>
+                            </view>
+                            <view class="expenses-right">
+                                <view class="flex-wrp-row expenses-right-title">
+                                    <text class="name">曾莉莉</text>
+                                    <text class="the-title">人事主管</text>
+                                    <text class="time">2012-2-10</text>
+                                </view>
+                                <view class="flex-wrp-row text-color">
+                                    <text>扣款项达不到标准，收款方未及时处理扣款项达不到标准，收款方未及时处理扣款项达不到标准，收款方未及时处理</text>
+                                </view>
+                                <view class="audit-color">
+                                    <text>待我审批</text>
+                                    <text class="emergency">加急</text>
+                                </view>
+                            </view>
+                        </navigator>
+                        <navigator url="/pages/attract-investment-approval/attract-investment-approval" class="expenses flex-wrp-row">
+                            <view class="swiper-item-left">
+                                <image src="../../images/touxiang.png"></image>
+                                <view class="red-round"></view>
+                            </view>
+                            <view class="expenses-right">
+                                <view class="flex-wrp-row expenses-right-title">
+                                    <text class="name">曾莉莉</text>
+                                    <text class="the-title">人事主管</text>
+                                    <text class="time">2012-2-10</text>
+                                </view>
+                                <view class="flex-wrp-row text-color">
+                                    <text>扣款项达不到标准，收款方未及时处理扣款项达不到标准，收款方未及时处理扣款项达不到标准，收款方未及时处理</text>
+                                </view>
+                                <view class="agreed-color">
+                                    <text>通过审批</text>
+                                    <text class="emergency">加急</text>
+                                </view>
+                            </view>
+                        </navigator>
+                        <navigator url="/pages/attract-investment-approval/attract-investment-approval" class="expenses flex-wrp-row">
+                            <view class="swiper-item-left">
+                                <image src="../../images/touxiang.png"></image>
+                                <view class="red-round"></view>
+                            </view>
+                            <view class="expenses-right">
+                                <view class="flex-wrp-row expenses-right-title">
+                                    <text class="name">曾莉莉</text>
+                                    <text class="the-title">人事主管</text>
+                                    <text class="time">2012-2-10</text>
+                                </view>
+                                <view class="flex-wrp-row text-color">
+                                    <text>扣款项达不到标准，收款方未及时处理扣款项达不到标准，收款方未及时处理扣款项达不到标准，收款方未及时处理</text>
+                                </view>
+                                <view class="agreed-color">
+                                    <text>蒋婷已同意</text>
+                                    <text class="emergency">加急</text>
+                                </view>
+                            </view>
+                        </navigator>
+                    </swiper-item>
+                    <swiper-item class="">
+                        <navigator url="/pages/attract-investment-approval/attract-investment-approval" class="expenses flex-wrp-row">
+                            <view class="swiper-item-left">
+                                <image src="../../images/news.png">
+                                </image>
+                                <view class="red-round"></view>
+                            </view>
+                            <view class="expenses-right">
+                                <view class="flex-wrp-row expenses-right-title">
+                                    <text class="name">曾莉莉</text>
+                                    <text class="the-title">人事主管</text>
+                                    <text class="time">2012-2-10</text>
+                                </view>
+                                <view class="flex-wrp-row text-color">
+                                    <text>扣款项达不到标准，收款方未及时处理扣款项达不到标准，收款方未及时处理扣款项达不到标准，收款方未及时处理</text>
+                                </view>
+                                <view class="audit-color">
+                                    <text>待我审批</text>
+                                    <text class="emergency">加急</text>
+                                </view>
+                            </view>
+                        </navigator>
+                        <navigator url="/pages/attract-investment-approval/attract-investment-approval" class="expenses flex-wrp-row">
+                            <view class="swiper-item-left">
+                                <image src="../../images/touxiang.png"></image>
+                                <view class="red-round"></view>
+                            </view>
+                            <view class="expenses-right">
+                                <view class="flex-wrp-row expenses-right-title">
+                                    <text class="name">曾莉莉</text>
+                                    <text class="the-title">人事主管</text>
+                                    <text class="time">2012-2-10</text>
+                                </view>
+                                <view class="flex-wrp-row text-color">
+                                    <text>扣款项达不到标准，收款方未及时处理扣款项达不到标准，收款方未及时处理扣款项达不到标准，收款方未及时处理</text>
+                                </view>
+                                <view class="agreed-color">
+                                    <text>通过审批</text>
+                                    <text class="emergency">加急</text>
+                                </view>
+                            </view>
+                        </navigator>
+                        <navigator url="/pages/attract-investment-approval/attract-investment-approval" class="expenses flex-wrp-row">
+                            <view class="swiper-item-left">
+                                <image src="../../images/touxiang.png"></image>
+                                <view class="red-round"></view>
+                            </view>
+                            <view class="expenses-right">
+                                <view class="flex-wrp-row expenses-right-title">
+                                    <text class="name">曾莉莉</text>
+                                    <text class="the-title">人事主管</text>
+                                    <text class="time">2012-2-10</text>
+                                </view>
+                                <view class="flex-wrp-row text-color">
+                                    <text>扣款项达不到标准，收款方未及时处理扣款项达不到标准，收款方未及时处理扣款项达不到标准，收款方未及时处理</text>
+                                </view>
+                                <view class="agreed-color">
+                                    <text>蒋婷已同意</text>
+                                    <text class="emergency">加急</text>
+                                </view>
+                            </view>
+                        </navigator>
+                    </swiper-item>
+                    <swiper-item class="swiper-item-select">
+                        <view class="body_head-select {{open?'display_show':'display_none'}}" bindtap="swichNav">
+                            <view url="pages/list/list" class="">
+                                <view class="{{open?'display_show':'display_none'}}">中环城</view>
+                            </view>
+                            <view url="pages/scroll-view/index">
+                                <view class="{{open?'display_show':'display_none'}}">老阳关</view>
+                            </view>
+                            <view url="pages/scroll-view/index">
+                                <view class="{{open?'display_show':'display_none'}}">大西门</view>
+                            </view>
+                        </view>
+                        <navigator url="/pages/attract-investment-approval/attract-investment-approval" class="expenses flex-wrp-row">
+                            <view class="swiper-item-left">
+                                <image src="../../images/news.png">
+                                </image>
+                                <view class="red-round"></view>
+                            </view>
+                            <view class="expenses-right">
+                                <view class="flex-wrp-row expenses-right-title">
+                                    <text class="name">曾莉莉</text>
+                                    <text class="the-title">人事主管</text>
+                                    <text class="time">2012-2-10</text>
+                                </view>
+                                <view class="flex-wrp-row text-color">
+                                    <text>扣款项达不到标准，收款方未及时处理扣款项达不到标准，收款方未及时处理扣款项达不到标准，收款方未及时处理</text>
+                                </view>
+                                <view class="audit-color">
+                                    <text>待我审批</text>
+                                    <text class="emergency">加急</text>
+                                </view>
+                            </view>
+                        </navigator>
+                        <navigator url="/pages/attract-investment-approval/attract-investment-approval" class="expenses flex-wrp-row">
+                            <view class="swiper-item-left">
+                                <image src="../../images/touxiang.png"></image>
+                                <view class="red-round"></view>
+                            </view>
+                            <view class="expenses-right">
+                                <view class="flex-wrp-row expenses-right-title">
+                                    <text class="name">曾莉莉</text>
+                                    <text class="the-title">人事主管</text>
+                                    <text class="time">2012-2-10</text>
+                                </view>
+                                <view class="flex-wrp-row text-color">
+                                    <text>扣款项达不到标准，收款方未及时处理扣款项达不到标准，收款方未及时处理扣款项达不到标准，收款方未及时处理</text>
+                                </view>
+                                <view class="agreed-color">
+                                    <text>通过审批</text>
+                                    <text class="emergency">加急</text>
+                                </view>
+                            </view>
+                        </navigator>
+                        <navigator url="/pages/attract-investment-approval/attract-investment-approval" class="expenses flex-wrp-row">
+                            <view class="swiper-item-left">
+                                <image src="../../images/touxiang.png"></image>
+                                <view class="red-round"></view>
+                            </view>
+                            <view class="expenses-right">
+                                <view class="flex-wrp-row expenses-right-title">
+                                    <text class="name">曾莉莉</text>
+                                    <text class="the-title">人事主管</text>
+                                    <text class="time">2012-2-10</text>
+                                </view>
+                                <view class="flex-wrp-row text-color">
+                                    <text>扣款项达不到标准，收款方未及时处理扣款项达不到标准，收款方未及时处理扣款项达不到标准，收款方未及时处理</text>
+                                </view>
+                                <view class="agreed-color">
+                                    <text>蒋婷已同意</text>
+                                    <text class="emergency">加急</text>
+                                </view>
+                            </view>
+                        </navigator>
+                    </swiper-item>
+                </swiper>
+            </view>
+        </view>
+    </view>
+</view>

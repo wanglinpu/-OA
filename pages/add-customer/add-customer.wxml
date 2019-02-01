@@ -1,0 +1,33 @@
+<view class="container" hover-class="none" hover-stop-propagation="false">
+    <view class="customer" hover-class="none" hover-stop-propagation="false">
+        <view class="customer-title"><text>填写客户信息</text></view>
+        <view class="customer-name flex-wrp-row">
+            <image src="../../images/people1.png"></image>
+            <text class="name">姓名</text>
+            <textarea placeholder="点击添加客户姓名"></textarea>
+        </view>
+        <view class="customer-name flex-wrp-row">
+            <image src="../../images/phone_copy1.png"></image>
+            <text class="name">电话</text>
+            <textarea placeholder="点击添加客户电话"></textarea>
+        </view>
+        <view class="flex-wrp-col business-type">
+            <text class="form">请选择商业类型:</text>
+            <view class="flex-wrp-row check-box">
+                <block wx:for="{{parameter1}}" wx:key="parameter1">
+                    <text class='parameter-info text-over {{item.checked?"checked_parameter":""}}' data-id='{{item.id}}'
+                        bindtap='parameterTap1'>{{item.name}}</text>
+                </block>
+            </view>
+        </view>
+        <view class="flex-wrp-col digest">
+            <text>客户经商经验</text>
+            <textarea class="" value="" placeholder="点击输入收款摘要">
+                <image src="../../images/pen1.png"></image>
+            </textarea>
+        </view>
+    </view>
+    <view class="submit">
+        <navigator url="/pages/add-customer/add-customer">提交</navigator>
+    </view>
+</view>

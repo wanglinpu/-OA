@@ -1,0 +1,68 @@
+<view class="container" hover-class="none" hover-stop-propagation="false">
+    <!-- 头部信息开始 -->
+    <view class="home_top flex-wrp-row" hover-class="none" hover-stop-propagation="false">
+        <view class="home_top-pro_photo" hover-class="none" hover-stop-propagation="false">
+            <image src="../../images/touxiang.png"></image>
+        </view>
+        <view class="home_top-light" hover-class="none" hover-stop-propagation="false">
+            <view class="flex-wrp-row">
+                <text class="name">艾琳</text>
+                <text class="the-title">招商专员</text>
+                <text>1年20天10小时</text>
+            </view>
+            <view class="t-num" hover-class="none" hover-stop-propagation="false">
+                工号：32545686
+            </view>
+        </view>
+    </view>
+    <view class="contact" hover-class="none" hover-stop-propagation="false">
+        <view class="contact-clud flex-wrp-row" hover-class="none" hover-stop-propagation="false">
+            <view class="top-phone flex-wrap-col">
+                <image src="../../images/phone.png"></image>
+                <view class="contact-color">联系电话</view>
+                <view>13125547889</view>
+            </view>
+            <view class="line" hover-class="none" hover-stop-propagation="false">
+            </view>
+            <view class="top-phone flex-wrap-col" hover-class="none" hover-stop-propagation="false">
+                <image src="../../images/email1.png"></image>
+                <view class="contact-color">QQ邮箱</view>
+                <view>1234678877@qq.com</view>
+            </view>
+        </view>
+    </view>
+    <!-- 头部信息结束 -->
+    <!-- 导航菜单开始 -->
+    <view class="nav">
+        <view class="nav-tabs flex-wrp-col" hover-class="none" hover-stop-propagation="false">
+            <view class="nav-top flex-wrp-row">
+                <navigator class="flex-wrp-col m-left" target="" url="/pages/my-client/my-client" hover-class="navigator-hover" open-type="navigate">
+                    <image src="../../images/kehu.png"></image>
+                    <text>我的客户</text>
+                </navigator>
+                <view class="lines"></view>
+                <navigator class="flex-wrp-col" target="" url="" hover-class="navigator-hover" open-type="navigate">
+                    <image src="../../images/study.png"></image>
+                    <text>学习交流</text>
+                </navigator>
+                <view class="lines"></view>
+                <navigator class="flex-wrp-col" target="" url="/pages/selfgold/selfgold" hover-class="navigator-hover" open-type="navigate">
+                    <image src="../../images/kuanxiang.png"></image>
+                    <text>我的款项</text>
+                </navigator>
+            </view>
+            <view class="nav-top border-none flex-wrp-row">
+                <navigator class="flex-wrp-col m-left" target="" url="" hover-class="navigator-hover" open-type="navigate">
+                    <image src="../../images/yijian.png"></image>
+                    <text>意见反馈</text>
+                </navigator>
+                <view class="lines"></view>
+                <navigator class="flex-wrp-col" target="" url="" hover-class="navigator-hover" open-type="navigate">
+                    <image src="../../images/yongjin.png"></image>
+                    <text>我的佣金</text>
+                </navigator> 
+            </view>
+        </view>
+    </view>
+    <!-- 导航菜单结束 -->
+</view>

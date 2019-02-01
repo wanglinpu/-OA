@@ -1,0 +1,51 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/project-section/project-section",
+    "pages/attract-investment-index/attract-investment-index",
+    "pages/planning-amendApplication/planning-amendApplication",
+    "pages/planning-department/planning-department",
+    "pages/planning-department-details/planning-department-details",
+    "pages/attract-investment-approval/attract-investment-approval",
+    "pages/customer-details/customer-details",
+    "pages/add-customer/add-customer",
+    "pages/my-client/my-client",
+    "pages/about/about",
+    "pages/new-borrowing/new-borrowing",
+    "pages/new-collection/new-collection",
+    "pages/selfgold/selfgold",
+    "pages/new-reimbursement/new-reimbursement",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "兴华瑞OA管理",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true,
+    "backgroundColor":"#ddd"
+  },
+ "tabBar": {
+   "selectedColor": "1E1E1E",
+  "list": [
+    {
+      "pagePath":           "pages/attract-investment-index/attract-investment-index",
+      "text": "首页",
+      "iconPath": "/images/index-dis1.png",
+      "selectedIconPath": "/images/index1.png"
+    },
+    {
+      "pagePath": "pages/home/home",
+      "text": "我的",
+      "iconPath": "/images/wode-dis1.png",
+      "selectedIconPath": "/images/wode1.png"
+    },
+    {
+      "pagePath": "pages/about/about",
+      "text": "关于",
+      "iconPath": "/images/guanyu1-dis.png",
+      "selectedIconPath": "/images/guanyu2.png"
+    }
+  ]
+}
+}

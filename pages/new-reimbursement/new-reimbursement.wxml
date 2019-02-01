@@ -1,0 +1,58 @@
+<view class="container" hover-class="none" hover-stop-propagation="false">
+    <view class="col-ctn">
+        <view class="collection">
+            <view class="collection-details">
+                <view class="flex-wrp-row">
+                    <text>报销金额:</text>
+                    <input class="input" name="userName" placeholder="" bindinput="userNameInput" />
+                </view>
+                <view class="flex-wrp-row">
+                    <text>费用类别:</text>
+                    <input class="input" name="userName" placeholder="" bindinput="userNameInput" />
+                </view>
+                <view class="flex-wrp-col digest">
+                    <text>报销摘要:</text>
+                    <textarea class="" value="" placeholder="点击输入报销摘要">
+                    <image src="../../images/pen1.png"></image>
+                </textarea>
+                </view>
+                <view class="flex-wrp-col">
+                    <text>所属项目:</text>
+                    <view class="flex-wrp-row check-box">
+                        <block wx:for="{{parameter1}}" wx:key="parameter1">
+                            <text class='parameter-info text-over {{item.checked?"checked_parameter":""}}' data-id='{{item.id}}'
+                                bindtap='parameterTap1'>{{item.name}}</text>
+                        </block>
+                    </view>
+                </view>    
+                <view class="flex-wrp-col add-attachment">
+                    <text>添加附件:</text>
+                    <view>
+                        <image src="../../images/add3.png"></image>
+                    </view>
+                </view>
+                <view class="flex-wrp-col">
+                    <text>审批人:</text>
+                    <view class="flex-wrp-row check-box">
+                        <view class="approval-people flex-wrp-col">
+                            <image src="../../images/touxiang.png"></image>
+                            <text class="name">王思聪</text>
+                        </view>
+                        <view class="del">
+                            <image src="../../images/cha1.png"></image>
+                        </view>
+                        <image src="../../images/jiantou1.png"></image>
+                        <image src="../../images/add1.png"></image>
+                    </view>
+                </view>
+                <view class="flex-wrp-col copy-to">
+                    <text>抄送人</text>
+                    <image src="../../images/add1.png"></image>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="submit">
+        <navigator>提交</navigator>
+    </view>
+</view>

@@ -1,0 +1,140 @@
+page {
+    background: #F0F1F3;
+    padding-bottom: 100rpx;
+}
+/* 顶部搜索框开始 */
+.top-search {
+    position: relative;
+    width: 100%
+}
+.top-search image {
+    position: absolute;
+    left: 80rpx;
+    top: 36rpx;
+    width: 40rpx;
+    height: 40rpx;
+}
+.top-search input {
+    height: 70rpx;
+    margin: 20rpx 70rpx;
+    border-radius: 40rpx;
+    background: #fff;
+    box-sizing: border-box;
+}
+/* 顶部搜索框结束 */
+/* 客户信息开始 */
+.hide{
+    display: none;
+   }
+   .show{ 
+    display: block;
+   }
+.customer {
+    width: 100%;
+}  
+.customer-top {
+    margin: 0 20rpx;
+    /* height: 710rpx; */
+    margin-bottom: 30rpx;
+    border-radius: 40rpx;
+    padding-top: 10rpx;
+    background: #fff;
+    box-sizing: border-box;
+}
+.edit image {
+    position: absolute;
+    right: 10rpx;
+    width: 50rpx;
+    height: 50rpx;
+}
+.customer-top .name {
+    font-size: 40rpx;
+}
+.customer-top-right {
+    position: relative;
+    margin: 20rpx;
+}
+.customer-top-right .tel-phone {
+    margin-top: 10rpx0;
+    color: #B9B9B9;
+}
+.customer-top .note {
+    width: 86rpx;
+    height: 36rpx;
+    margin-left: 20rpx;
+    margin-top: 14rpx;
+    border-radius: 20rpx;
+    line-height: 36rpx;
+    text-align: center;
+    background: #F54342;
+    color: #fff;
+}
+
+.cooperation {
+   margin: 20rpx;
+   margin-bottom: 0;
+}
+.good-at {
+    font-size: 32rpx;
+    margin: 20rpx 20rpx;
+}
+.cooperation-bottom-top {
+    position: relative;
+    margin: 10rpx 20rpx;
+    padding-top: 30rpx;
+    margin-bottom: 20rpx;
+    border-top: 4rpx solid #B9B9B9;
+}
+.cooperation-bottom-top .line{
+    margin: 0 auto;
+    width: 80rpx;
+    height: 8rpx;
+    border-radius: 20rpx;
+    background: #F54342;
+}
+.cooperation-title {
+    text-align: center;
+}
+.cooperation-bottom-top .cooperation-title {
+    
+}
+
+.cooperation-bottom-bottom {
+    margin-left: 20rpx;
+}
+.cooperation-left {
+    width: 50%;
+}
+.cooperation-title {
+    color: #B9B9B9;
+    margin-right: 10rpx;
+}
+.cooperation-left view {
+    margin-bottom: 10rpx;
+}
+.btn {
+    width: 100%;
+    margin-top: 40rpx;
+}
+.btn view {
+    position: relative;
+    width: 396rpx;
+    height: 60rpx;
+    line-height: 60rpx;
+    text-align: center;
+    color: #fff;
+    font-size: 28rpx;
+    border-radius: 42rpx 42rpx 0 0;
+    background: #F54342;
+    margin: 0 auto;
+}
+.btn text{
+    font-size: 36rpx;
+    position: absolute;
+    right: 50rpx;
+    top: 10rpx;
+    font-weight: bold;
+    line-height: 40rpx;
+    text-align: center;
+}
+/* 客户信息结束 */

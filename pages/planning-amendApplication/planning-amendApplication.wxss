@@ -1,0 +1,6 @@
+.collection {
+    padding-top: 20rpx;
+}
+.input-mr {
+    margin-right: 26rpx;
+}

@@ -1,0 +1,173 @@
+/* 头部标题开始 */
+page {
+  background: #F0F1F3;
+}
+.top-box {
+  padding:0 26rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  background: #fff;
+  border-top: 1px solid #F2F2F2;
+  box-sizing: border-box;
+  width: 100%;
+}
+.top {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.top text {
+  margin-left: 40rpx;
+  color: #0C0C0C;
+  font-size: 36rpx;
+  height: 100%;
+}
+.top image {
+  position: absolute;
+  top: 30rpx;
+  right: 40rpx;
+  width: 58rpx;
+  height: 58rpx;
+}
+.top .unread {
+  position: absolute;
+  right: 38rpx;
+  top: 20rpx;
+  width: 34rpx;
+  height: 34rpx;
+  line-height: 34rpx;
+  text-align: center;
+  color: #fff;
+  background: #F54342;
+  border-radius: 50%;
+}
+/* 头部标题结束 */
+/* 轮播图开始 */
+
+.banner {
+  padding: 20rpx;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.banner image {
+  border-radius: 20rpx;
+  height: 326rpx;
+  width: 100%;
+}
+/* 轮播图结束 */
+/* 主体部分开始 */
+.main {
+  width: 100%;
+  padding: 0 20rpx;
+  box-sizing: border-box;
+}
+.display_none{
+  display: none;
+}
+.page_bd{
+  width: 100%;
+  padding: 0 20rpx;
+  text-align: left;
+  background: #fff;
+  box-sizing: border-box;
+}
+.body_head{
+  width: 240rpx;
+  padding-left: 10px;  
+  box-sizing: border-box;
+}
+.body_head image {
+  position: relative;
+  left: 20rpx;
+  top: 6rpx;
+  width: 30rpx;
+  height: 20rpx;
+}
+.display_show{
+  display: block;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.body_head-select {
+  background: #fff;
+}
+.swiper-tab {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background: #fff;
+  line-height: 90rpx;
+  font-size: 30rpx;
+  margin-right: 100rpx;
+  border-top: 2rpx solid #F2F2F2;
+}
+/* .swiper-tab .tab-item {
+  margin-left: 102rpx;
+}    */
+.tab-item {
+  text-align: center;
+  color: #000;
+}
+.swiper {
+      height: 2000rpx;
+  }
+.on {
+  font-size: 30rpx;
+  color: #f65959;
+  font-weight: 900;
+  border-bottom: 5rpx solid #f65959;
+}
+/* 内容主体 */
+.swiper-list {
+  padding:30rpx 20rpx;
+
+}
+.swiper-list swiper-item {
+  /* height: 1000rpx; */
+}
+.swiper-list swiper-item .expenses {
+  width: 100%;
+  padding-bottom: 40rpx;
+  border-radius: 30rpx;
+  box-sizing: border-box;
+  background: #fff;
+}
+.swiper-list swiper-item image {
+  margin: 40rpx 20rpx 0 40rpx;
+  width: 120rpx;
+  margin-right: 20rpx;
+  height: 120rpx;
+  border-radius: 50%;
+}
+.expenses {
+  margin-bottom: 20rpx;
+}
+.expenses-right {
+  font-size: 28rpx;
+  /* margin-left: 40rpx; */
+  margin-top: 30rpx;
+}
+.expenses-right .text-color {
+  margin-top: 10rpx;
+  color: #666;
+}
+.expenses-right-title  {
+  margin-right: 10rpx;
+  color: #C0C0C0;
+}
+.expenses-right-title text {
+ margin-right: 40rpx;
+}
+.expenses-right-title .time {
+  margin-left: 60rpx;
+}
+.agreed-color {
+  margin-top: 10rpx;
+  color:  #f65959;
+}
+.audit-color {
+  margin-top: 10rpx;
+  color: #FFAC35;
+}
+/* 主体部分结束 */

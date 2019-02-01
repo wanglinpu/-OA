@@ -1,0 +1,202 @@
+<view class="container" hover-class="none" hover-stop-propagation="false">
+    <view class="layout-content">
+        <view class="swiper-tab">
+            <view class="tab-item {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">收款审批</view>
+            <view class="tab-item {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">费用报销</view>
+            <view class="tab-item {{currentTab==2 ? 'on' : ''}}" data-current="2" bindtap="swichNav">借款申请</view>
+        </view>
+        <!--内容主体-->
+        <view class="swiper-list">
+            <swiper class="swiper" current="{{currentTab}}" duration="200" bindchange="swiperChange">
+                <swiper-item class="">
+                    <navigator url="/pages/customer-details/customer-details" class="expenses flex-wrp-row">
+                        <view>
+                            <image src="../../images/touxiang.png"></image>
+                        </view>
+                        <view class="expenses-right">
+                            <view class="flex-wrp-row expenses-right-title">
+                                <text class="name">曾莉莉</text>
+                                <text class="the-title">人事主管</text>
+                                <text class="time">2012-2-10</text>
+                            </view>
+                            <view class="flex-wrp-row text-color">
+                                <text>扣款项达不到标准，收款方未及时处理扣款项达不到标准，收款方未及时处理扣款项达不到标准，收款方未及时处理</text>
+                            </view>
+                            <view class="audit-color">
+                                蒋婷已同意
+                            </view>
+                        </view>
+                    </navigator>
+                    <navigator url="/pages/customer-details/customer-details" class="expenses flex-wrp-row">
+                        <view>
+                            <image src="../../images/touxiang.png"></image>
+                        </view>
+                        <view class="expenses-right">
+                            <view class="flex-wrp-row expenses-right-title">
+                                <text class="name">曾莉莉</text>
+                                <text class="the-title">人事主管</text>
+                                <text class="time">2012-2-10</text>
+                            </view>
+                            <view class="flex-wrp-row text-color">
+                                <text>扣款项达不到标准，收款方未及时处理扣款项达不到标准，收款方未及时处理扣款项达不到标准，收款方未及时处理</text>
+                            </view>
+                            <view class="agreed-color">
+                                蒋婷已同意
+                            </view>
+                        </view>
+                    </navigator>
+                    <navigator url="/pages/customer-details/customer-details" class="expenses flex-wrp-row">
+                        <view>
+                            <image src="../../images/touxiang.png"></image>
+                        </view>
+                        <view class="expenses-right">
+                            <view class="flex-wrp-row expenses-right-title">
+                                <text class="name">曾莉莉</text>
+                                <text class="the-title">人事主管</text>
+                                <text class="time">2012-2-10</text>
+                            </view>
+                            <view class="flex-wrp-row text-color">
+                                <text>扣款项达不到标准，收款方未及时处理扣款项达不到标准，收款方未及时处理扣款项达不到标准，收款方未及时处理</text>
+                            </view>
+                            <view class="agreed-color">
+                                蒋婷已同意
+                            </view>
+                        </view>
+                    </navigator>
+
+                </swiper-item>
+                <swiper-item class="">
+                    <navigator url="/pages/customer-details/customer-details" class="expenses flex-wrp-row">
+                        <image src="../../images/touxiang.png"></image>
+                        <view class="expenses-right">
+                            <view class="flex-wrp-row expenses-right-title">
+                                <text class="name">曾莉莉</text>
+                                <text class="the-title">人事主管</text>
+                                <text class="time">2012-2-10</text>
+                            </view>
+                            <view class="flex-wrp-row text-color">
+                                <text>报销类别： </text><text>购买打印机</text>
+                            </view>
+                            <view class="text-color">
+                                <text class=".textcolor">报销金额： </text><text>2000元</text>
+                            </view>
+                            <view class="audit-color">
+                                蒋婷已同意
+                            </view>
+                        </view>
+                    </navigator>
+                    <view class="expenses flex-wrp-row">
+                        <image src="../../images/touxiang.png"></image>
+                        <view class="expenses-right">
+                            <view class="flex-wrp-row expenses-right-title">
+                                <text class="name">曾莉莉</text>
+                                <text class="the-title">人事主管</text>
+                                <text class="time">2012-2-10</text>
+                            </view>
+                            <view class="flex-wrp-row text-color">
+                                <text>报销类别： </text><text>购买打印机</text>
+                            </view>
+                            <view class="text-color">
+                                <text class=".textcolor">报销金额： </text><text>2000元</text>
+                            </view>
+                            <view class="agreed-color">
+                                蒋婷已同意
+                            </view>
+                        </view>
+                    </view>
+                    <view class="expenses flex-wrp-row">
+                        <image src="../../images/touxiang.png"></image>
+                        <view class="expenses-right">
+                            <view class="flex-wrp-row expenses-right-title">
+                                <text class="name">曾莉莉</text>
+                                <text class="the-title">人事主管</text>
+                                <text class="time">2012-2-10</text>
+                            </view>
+                            <view class="flex-wrp-row text-color">
+                                <text>报销类别： </text><text>购买打印机</text>
+                            </view>
+                            <view class="text-color">
+                                <text class=".textcolor">报销金额： </text><text>2000元</text>
+                            </view>
+                            <view class="agreed-color">
+                                蒋婷已同意
+                            </view>
+                        </view>
+                    </view>
+                </swiper-item>
+                <swiper-item class="">
+                    <view class="expenses flex-wrp-row">
+                        <image src="../../images/touxiang.png"></image>
+                        <view class="expenses-right">
+                            <view class="flex-wrp-row expenses-right-title">
+                                <text class="name">曾莉莉</text>
+                                <text class="the-title">人事主管</text>
+                                <text class="time">2012-2-10</text>
+                            </view>
+                            <view class="flex-wrp-row text-color">
+                                <text>报销类别： </text><text>购买打印机</text>
+                            </view>
+                            <view class="text-color">
+                                <text class=".textcolor">报销金额： </text><text>2000元</text>
+                            </view>
+                            <view class="audit-color">
+                                蒋婷已同意
+                            </view>
+                        </view>
+                    </view>
+                    <view class="expenses flex-wrp-row">
+                        <image src="../../images/touxiang.png"></image>
+                        <view class="expenses-right">
+                            <view class="flex-wrp-row expenses-right-title">
+                                <text class="name">曾莉莉</text>
+                                <text class="the-title">人事主管</text>
+                                <text class="time">2012-2-10</text>
+                            </view>
+                            <view class="flex-wrp-row text-color">
+                                <text>报销类别： </text><text>购买打印机</text>
+                            </view>
+                            <view class="text-color">
+                                <text class=".textcolor">报销金额： </text><text>2000元</text>
+                            </view>
+                            <view class="agreed-color">
+                                蒋婷已同意
+                            </view>
+                        </view>
+                    </view>
+                    <view class="expenses flex-wrp-row">
+                        <image src="../../images/touxiang.png"></image>
+                        <view class="expenses-right">
+                            <view class="flex-wrp-row expenses-right-title">
+                                <text class="name">曾莉莉</text>
+                                <text class="the-title">人事主管</text>
+                                <text class="time">2012-2-10</text>
+                            </view>
+                            <view class="flex-wrp-row text-color">
+                                <text>报销类别： </text><text>购买打印机</text>
+                            </view>
+                            <view class="text-color">
+                                <text class=".textcolor">报销金额： </text><text>2000元</text>
+                            </view>
+                            <view class="agreed-color">
+                                蒋婷已同意
+                            </view>
+                        </view>
+                    </view>
+                </swiper-item>
+            </swiper>
+        </view>
+    </view>
+    <view class="add-gold">
+        <swiper current="{{currentTab}}" duration="200" bindchange="swiperChange">
+            <swiper-item current="{{currentTab}}">
+                <navigator url="/pages/new-collection/new-collection">新增款项</navigator>
+            </swiper-item>
+            <swiper-item current="{{currentTab}}">
+                <navigator url="/pages/new-reimbursement/new-reimbursement">新增报销</navigator>
+            </swiper-item>
+            <swiper-item current="{{currentTab}}">
+                <navigator url="/pages/new-borrowing/new-borrowing">新增借款</navigator>
+            </swiper-item>
+        </swiper>
+    </view>
+</view>

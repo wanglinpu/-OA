@@ -1,0 +1,127 @@
+.container {
+    background-color: #eee;
+    height: 100%;
+}
+.order {
+    width: 100%;
+    border-top: 1px solid #ccc;
+    background: #fff;
+}
+.swiper-tab {
+    text-align: center;
+    margin: 0 150rpx;
+    height: 88rpx;
+    font-size: 32rpx;
+    line-height: 88rpx;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+ 
+.swiper-tab-item {
+    /* width: 40%; */
+    color: #434343;
+    font-size: 28rpx;
+}
+.swiper-tab swiper-item{
+  box-sizing: border-box;
+}
+.active {
+    color: #f65959;
+    font-weight: 700;
+    border-bottom: 6rpx solid #f65959;
+}
+
+.new-title image {
+    width: 70rpx;
+    height: 70rpx;
+    }
+/* 新闻开始 */
+.news {
+    padding: 60rpx 20rpx;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ddd;
+}
+.new-left image{ 
+    width: 250rpx;
+    height: 174rpx;
+}
+.browse image {
+    width: 50rpx;
+    height: 40rpx;
+    margin-right: 16rpx;
+}
+.news-title {
+    font-size: 32rpx;
+    color: #2F2F2F;
+}
+.new-right {
+    width: 100%;
+    padding-left: 20rpx;
+    box-sizing: border-box;
+}
+.new-buttom {
+    color: #D9D9D9;
+    position: relative;
+    margin-top: 46rpx;
+}
+.browse {
+    position: absolute;
+    right: 0;
+    color: #D9D9D9;
+}
+/* 新闻结束 */
+
+/* 公告开始 */
+.swiper_list {
+  padding: 20rpx 15rpx;
+  background: #F0F1F3;
+}
+.swiper_list swiper {
+    border-radius: 20rpx;
+    padding: 0 20rpx;
+    height: 2300rpx;
+    box-sizing: border-box;
+    background: #fff;
+    margin-bottom: 100rpx;
+}
+.swiper_list .new-title {
+    box-sizing: border-box;
+    height: 106rpx;
+    line-height: 106rpx;
+    border-bottom: 1px solid #B9B9B9;
+}
+.new-title image {
+    width: 60rpx;
+    height: 60rpx;
+    margin-right: 20rpx;
+    position: relative;
+    top: 26rpx;
+}
+.swiper_list .new-list {
+    box-sizing: border-box;
+    height: 106rpx;
+    line-height: 106rpx;
+}
+.swiper_list .new-list view {
+    position: relative;
+    border-bottom: 1px solid #B9B9B9;
+}
+.swiper_list .new-list image {
+    position: absolute;
+    top: 34rpx;
+    margin-right: 30rpx;
+    width: 50rpx;
+    height: 50rpx;
+}
+.swiper_list .new-list .content {
+    margin-left: 60rpx;
+}
+.swiper_list .new-list .time {
+    color: #B9B9B9;
+    position: absolute;
+    right: 20rpx;
+}
+.readed {
+    color: #B9B9B9;
+}

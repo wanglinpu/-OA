@@ -1,0 +1,225 @@
+<view class="container" hover-class="none" hover-stop-propagation="false">
+    <view class='order'>
+        <view class="swiper-tab">
+            <view class="swiper-tab-item {{currentTab==0?'active':''}}" data-current="0" bindtap="clickTab">新闻</view>
+            <view class="swiper-tab-item {{currentTab==1?'active':''}}" data-current="1" bindtap="clickTab">公告(3)</view>
+        </view>
+        <view class="swiper_list">
+            <swiper current="{{currentTab}}" bindchange="swiperTab">
+                <swiper-item>
+                    <view class="flex-wrp-row news">
+                        <view class="flex-wrp-row">
+                            <view class="new-left">
+                                <image src="../../images/news.png"></image>
+                            </view>
+                            <view class="new-right">
+                                <text class="news-title">关于公司内部人员福利发放明确规定已出</text>
+                                <view class="flex-wrp-row new-buttom">
+                                    <text>10天前</text>
+                                    <view class="flex-wrp-row browse">
+                                        <image src="../../images/eyes1.png"></image>
+                                        <text>356</text>
+                                    </view>
+                                </view>
+                            </view>
+                        </view>
+                    </view>
+                    <view class="flex-wrp-row news">
+                        <view class="flex-wrp-row">
+                            <view class="new-left">
+                                <image src="../../images/news.png"></image>
+                            </view>
+                            <view class="new-right">
+                                <text class="news-title">关于公司内部人员福利发放明确规定已出</text>
+                                <view class="flex-wrp-row new-buttom">
+                                    <text>10天前</text>
+                                    <view class="flex-wrp-row browse">
+                                        <image src="../../images/eyes1.png"></image>
+                                        <text>356</text>
+                                    </view>
+                                </view>
+                            </view>
+                        </view>
+                    </view>
+                    <view class="flex-wrp-row news">
+                        <view class="flex-wrp-row">
+                            <view class="new-left">
+                                <image src="../../images/news.png"></image>
+                            </view>
+                            <view class="new-right">
+                                <text class="news-title">关于公司内部人员福利发放明确规定已出</text>
+                                <view class="flex-wrp-row new-buttom">
+                                    <text>10天前</text>
+                                    <view class="flex-wrp-row browse">
+                                        <image src="../../images/eyes1.png"></image>
+                                        <text>356</text>
+                                    </view>
+                                </view>
+                            </view>
+                        </view>
+                    </view>
+                    <view class="flex-wrp-row news">
+                        <view class="flex-wrp-row">
+                            <view class="new-left">
+                                <image src="../../images/news.png"></image>
+                            </view>
+                            <view class="new-right">
+                                <text class="news-title">关于公司内部人员福利发放明确规定已出</text>
+                                <view class="flex-wrp-row new-buttom">
+                                    <text>10天前</text>
+                                    <view class="flex-wrp-row browse">
+                                        <image src="../../images/eyes1.png"></image>
+                                        <text>356</text>
+                                    </view>
+                                </view>
+                            </view>
+                        </view>
+                    </view>
+                    <view class="flex-wrp-row news">
+                        <view class="flex-wrp-row">
+                            <view class="new-left">
+                                <image src="../../images/news.png"></image>
+                            </view>
+                            <view class="new-right">
+                                <text class="news-title">关于公司内部人员福利发放明确规定已出</text>
+                                <view class="flex-wrp-row new-buttom">
+                                    <text>10天前</text>
+                                    <view class="flex-wrp-row browse">
+                                        <image src="../../images/eyes1.png"></image>
+                                        <text>356</text>
+                                    </view>
+                                </view>
+                            </view>
+                        </view>
+                    </view>
+                    <view class="flex-wrp-row news">
+                        <view class="flex-wrp-row">
+                            <view class="new-left">
+                                <image src="../../images/news.png"></image>
+                            </view>
+                            <view class="new-right">
+                                <text class="news-title">关于公司内部人员福利发放明确规定已出</text>
+                                <view class="flex-wrp-row new-buttom">
+                                    <text>10天前</text>
+                                    <view class="flex-wrp-row browse">
+                                        <image src="../../images/eyes1.png"></image>
+                                        <text>356</text>
+                                    </view>
+                                </view>
+                            </view>
+                        </view>
+                    </view>
+                </swiper-item>
+                <swiper-item>
+                    <view class="new-title flex-wrp-row">
+                        <image src="../../images/notice1.png"></image>
+                        <text>公告</text>
+                    </view>
+                    <view class="new-list">
+                        <view>
+                            <image src="../../images/horn1.png"></image>
+                            <text class="content">关于年终奖发放通知</text>
+                            <text class="time">2019-2-16</text>
+                        </view>
+                        <view>
+                            <image src="../../images/horn1.png"></image>
+                            <text class="content">关于年终奖发放通知</text>
+                            <text class="time">2019-2-16</text>
+                        </view>
+                        <view>
+                            <image src="../../images/horn1.png"></image>
+                            <text class="content">关于年终奖发放通知</text>
+                            <text class="time">2019-2-16</text>
+                        </view>
+                        <view>
+                            <image src="../../images/horn1.png"></image>
+                            <text class="content">关于年终奖发放通知</text>
+                            <text class="time">2019-2-16</text>
+                        </view>
+                        <view>
+                            <image src="../../images/horn1.png"></image>
+                            <text class="content">关于年终奖发放通知</text>
+                            <text class="time">2019-2-16</text>
+                        </view>
+                        <view>
+                            <image src="../../images/horn1.png"></image>
+                            <text class="content">关于年终奖发放通知</text>
+                            <text class="time">2019-2-16</text>
+                        </view>
+                        <view>
+                            <image src="../../images/horn1.png"></image>
+                            <text class="content">关于年终奖发放通知</text>
+                            <text class="time">2019-2-16</text>
+                        </view>
+                        <view>
+                            <image src="../../images/horn1.png"></image>
+                            <text class="content">关于年终奖发放通知</text>
+                            <text class="time">2019-2-16</text>
+                        </view>
+                        <view>
+                            <image src="../../images/horn1.png"></image>
+                            <text class="content">关于年终奖发放通知</text>
+                            <text class="time">2019-2-16</text>
+                        </view>
+                        <view>
+                            <image src="../../images/horn1.png"></image>
+                            <text class="content">关于年终奖发放通知</text>
+                            <text class="time">2019-2-16</text>
+                        </view>
+                        <view>
+                            <image src="../../images/horn1.png"></image>
+                            <text class="content">关于年终奖发放通知</text>
+                            <text class="time">2019-2-16</text>
+                        </view>
+                        <view>
+                            <image src="../../images/horn1.png"></image>
+                            <text class="content">关于年终奖发放通知</text>
+                            <text class="time">2019-2-16</text>
+                        </view>
+                        <view>
+                            <image src="../../images/horn1.png"></image>
+                            <text class="content">关于年终奖发放通知</text>
+                            <text class="time">2019-2-16</text>
+                        </view>
+                        <view>
+                            <image src="../../images/horn1.png"></image>
+                            <text class="content">关于年终奖发放通知</text>
+                            <text class="time">2019-2-16</text>
+                        </view>
+                        <view>
+                            <image src="../../images/horn1.png"></image>
+                            <text class="content">关于年终奖发放通知</text>
+                            <text class="time">2019-2-16</text>
+                        </view>
+                        <view>
+                            <image src="../../images/horn1.png"></image>
+                            <text class="content">关于年终奖发放通知</text>
+                            <text class="time">2019-2-16</text>
+                        </view>
+                        <view>
+                            <image src="../../images/horn1.png"></image>
+                            <text class="content">关于年终奖发放通知</text>
+                            <text class="time">2019-2-16</text>
+                        </view>
+                        <view>
+                            <image src="../../images/horn1.png"></image>
+                            <text class="content">关于年终奖发放通知</text>
+                            <text class="time">2019-2-16</text>
+                        </view>
+                        <view>
+                            <image src="../../images/horn1.png"></image>
+                            <text class="content">关于年终奖发放通知</text>
+                            <text class="time">2019-2-16</text>
+                        </view>
+                        <view>
+                            <image src="../../images/horn1.png"></image>
+                            <text class="content">关于年终奖发放通知</text>
+                            <text class="time">2019-2-16</text>
+                        </view>
+
+                    </view>
+                </swiper-item>
+            </swiper>
+        </view>
+    </view>
+</view>
